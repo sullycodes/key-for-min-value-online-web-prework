@@ -5,7 +5,8 @@
 name_hash = {
   :Louise => 45,
   :Sally => 67,
-  :Rex => 18
+  :Rex => 18,
+  :Gordon => {}
 }
 
 def key_for_min_value(name_hash)
