@@ -11,6 +11,6 @@ name_hash = {
 def key_for_min_value(name_hash)
   new_hash = name_hash.each { |name, total | }
   new_hash.sort_by { |total, name | }
+  puts key_for_min_value(new_hash)
 end
 
-puts key_for_min_value(new_hash)
