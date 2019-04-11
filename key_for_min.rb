@@ -9,7 +9,7 @@ name_hash = {
 }
 
 def key_for_min_value(name_hash)
-  name_hash.each do |name, total|
-    if 
-
+  name_hash.sort do |name, total|
 end
+
+puts key_for_min_value(name_hash)
