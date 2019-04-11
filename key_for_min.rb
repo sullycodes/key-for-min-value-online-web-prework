@@ -9,7 +9,7 @@ name_hash = {
 }
 
 def key_for_min_value(name_hash)
-  name_hash.sort_by { |total, name | }
+  name_hash.sort_by { |name, total | total }
 end
 
 puts key_for_min_value(name_hash)
